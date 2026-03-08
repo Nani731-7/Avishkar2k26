@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Profile</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg,#74ebd5,#ACB6E5);
+}
+
+/* Navbar */
+.navbar{
+    background:#222;
+    padding:15px;
+}
+
+.nav-links{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    gap:30px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.nav-links a:hover{
+    color:#00ffff;
+}
+
+/* Profile Card */
+.profile-container{
+    width:50%;
+    margin:60px auto;
+    text-align:center;
+    background:white;
+    padding:40px;
+    border-radius:12px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Profile Image */
+.profile-img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:20px;
+}
+
+/* Bio Data */
+.bio{
+    text-align:left;
+    margin-top:20px;
+}
+
+.bio p{
+    font-size:16px;
+    color:#333;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="profile.html">Profile</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+
+<!-- Profile Section -->
+<div class="profile-container">
+
+<img src="https://randomuser.me/api/portraits/men/32.jpg" class="profile-img">
+
+<h2>Rahul Sharma</h2>
+<p>Software Engineering Student</p>
+
+<div class="bio">
+<p><b>Age:</b> 21</p>
+<p><b>Location:</b> Hyderabad, India</p>
+<p><b>Email:</b> rahulsharma@example.com</p>
+<p><b>Skills:</b> HTML, CSS, JavaScript, Python</p>
+<p><b>Hobbies:</b> Coding, Reading tech blogs, Playing cricket</p>
+</div>
+
+</div>
+
+</body>
+</html>
